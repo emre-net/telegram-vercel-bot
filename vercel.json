@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "functions": {
-    "api/bot.js": {
-      "runtime": "nodejs14.x"  // Vercel için uygun olan Node.js sürümü
+  "builds": [
+    {
+      "src": "api/bot.js",
+      "use": "@vercel/node"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/bot",
