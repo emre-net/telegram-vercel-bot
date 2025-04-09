@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "functions": {
-    "api/**/*.php": {
-      "runtime": "vercel-php@0.5.0"
+  "builds": [
+    {
+      "src": "api/bot.js",
+      "use": "@vercel/node"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/api/bot",
+      "dest": "api/bot.js"
+    }
+  ]
 }
