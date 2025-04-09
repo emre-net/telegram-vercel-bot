@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/bot.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs16.x"  // ya da nodejs18.x kullanılabilir, bu sürümü dene
     }
   },
   "routes": [
