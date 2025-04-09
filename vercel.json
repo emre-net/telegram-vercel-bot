@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/bot.js": {
-      "runtime": "nodejs16.x"  // ya da nodejs18.x kullanılabilir, bu sürümü dene
+      "runtime": "nodejs14.x"  // Vercel için uygun olan Node.js sürümü
     }
   },
   "routes": [
